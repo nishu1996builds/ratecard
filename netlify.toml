@@ -1,0 +1,11 @@
+# Netlify: connect this (private) repo at app.netlify.com and deploy the default branch.
+# Only the free rate calculator is published. The paid app, dist/ and marketing/ never leave the repo.
+[build]
+  publish = "free/rate-calculator"
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

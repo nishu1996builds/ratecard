@@ -24,7 +24,7 @@ This is the paid product. It is sold at https://nishulegacy.gumroad.com/l/rateca
 
 ## Related
 
-- The free Hourly Rate Calculator moved here from the TBD-Claude lab on Nov 8, 2026. **Open item:** it needs a public URL. Its old address, https://nishu1996builds.github.io/TBD-Claude/free/rate-calculator/, stops working once the lab's default branch is updated, and this repo is meant to be private, so GitHub Pages here is not the answer. Options: a small public repo of its own (`rate-calculator`) with Pages on, or Netlify. Once the new URL exists, update the canonical and OG tags in `free/rate-calculator/index.html` and every link in `marketing/`.
+- The free Hourly Rate Calculator moved here from the TBD-Claude lab on Nov 8, 2026 and is hosted on Netlify from `netlify.toml`, which publishes only `free/rate-calculator/`. One-time setup: at app.netlify.com choose **Add new site, Import an existing project, GitHub**, pick this repo and `main`, deploy, then rename the site (for example `rate-calculator`). Once the URL exists, update the canonical and OG tags in `free/rate-calculator/index.html` and every calculator link in `marketing/`. The old lab address, https://nishu1996builds.github.io/TBD-Claude/free/rate-calculator/, is gone.
 - `marketing/channels.md` section B covers SoftOpen channels; the SoftOpen landing page itself lives in `nishu1996builds/SoftOpen` under `site/`.
 
 ## History
