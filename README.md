@@ -10,8 +10,10 @@ This is the paid product. It is sold at https://nishulegacy.gumroad.com/l/rateca
 | --- | --- |
 | `index.html` | The app. Open it in a browser, that is the whole thing. |
 | `GUMROAD.md` | Listing copy for the Gumroad product page. |
-| `dist/` | What buyers download: `Ratecard.html` (buyer edition), `Ratecard-v1.zip`, the Quick Start PDF, and cover images. |
+| `dist/` | What buyers download: `Ratecard.html` (buyer edition), `Ratecard-v1.zip`, the Quick Start PDF, and cover images. `dist/bundle/cover.png` is the Career Independence Bundle cover. |
 | `screenshots/` | Marketing screenshots at desktop and phone widths. |
+| `free/rate-calculator/` | The free Hourly Rate Calculator, the lead magnet that links here. One HTML file plus its OG image and screenshots. |
+| `marketing/` | The store-level marketing pack for nishulegacy.gumroad.com: 14-day plan, LinkedIn, Reddit, X, launch posts, emails, and the channel scorecard. It covers every Gumroad product, so it lives with the first paid one. |
 
 ## Shipping a new version
 
@@ -22,8 +24,8 @@ This is the paid product. It is sold at https://nishulegacy.gumroad.com/l/rateca
 
 ## Related
 
-- Free lead magnet, the Hourly Rate Calculator, stays public in the TBD-Claude lab at https://nishu1996builds.github.io/TBD-Claude/free/rate-calculator/ and links here.
-- Store-level marketing (LinkedIn, Reddit, X, email, launch posts) lives in `marketing/` in TBD-Claude because it covers every Gumroad product, not just Ratecard.
+- The free Hourly Rate Calculator moved here from the TBD-Claude lab on Nov 8, 2026. **Open item:** it needs a public URL. Its old address, https://nishu1996builds.github.io/TBD-Claude/free/rate-calculator/, stops working once the lab's default branch is updated, and this repo is meant to be private, so GitHub Pages here is not the answer. Options: a small public repo of its own (`rate-calculator`) with Pages on, or Netlify. Once the new URL exists, update the canonical and OG tags in `free/rate-calculator/index.html` and every link in `marketing/`.
+- `marketing/channels.md` section B covers SoftOpen channels; the SoftOpen landing page itself lives in `nishu1996builds/SoftOpen` under `site/`.
 
 ## History
 
